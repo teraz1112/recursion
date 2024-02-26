@@ -1,3 +1,4 @@
+#文字列の圧縮
 def stringCompression(s):
     # 関数を完成させてください
     compressed = ''  # 結果を格納する変数
