@@ -129,6 +129,13 @@ class HelperFunctions:
                 maxValue=num
                 maxIndex=i
         return maxIndex
-    
+
+table1 = Dealer.startGame(2, "21")
+Dealer.printTableInformation(table1)
+print(Dealer.checkWinner(table1))
+
+table2 = Dealer.startGame(1, "poker")
+Dealer.printTableInformation(table2)
+print(Dealer.checkWinner(table2))
         
         
