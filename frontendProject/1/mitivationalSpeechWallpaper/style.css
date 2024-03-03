@@ -1,0 +1,15 @@
+
+.vh-75{
+    height: 75vh;
+}
+
+.textStyle {
+    font-size: 1.2rem;
+    line-height: 1.7;
+    letter-spacing: 0.5px;
+}
+
+.box{
+    height: 340px;
+    width: 100%;
+}

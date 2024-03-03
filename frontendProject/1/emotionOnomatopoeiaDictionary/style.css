@@ -1,0 +1,76 @@
+/* CSS */
+
+#emotionCardDiv {
+    position: relative;
+}
+
+#emotionCardDiv a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height:100%;
+    width: 100%;
+}
+
+.myCard {
+    height: 17rem;
+    border-radius: 0.75rem;
+}
+
+
+.emotion-text {
+    color: white;
+    text-align: center;
+}
+
+.white-text {
+    color: white;
+}
+
+.emoji {
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.vw100 {
+    width: 100vw;
+}
+
+.w100 {
+    width: 100%;
+}
+
+.h100 {
+    height: 100%;
+}
+
+.happy-color {
+    background-color: #EFA1BF !important;
+}
+
+.angry-color {
+    background-color: #CC4559 !important;
+}
+
+.bad-color {
+    background-color: #B3C3D9 !important;
+}
+
+.sad-color {
+    background-color: #9C9A9B !important;
+}
+
+.surprised-color {
+    background-color: #8A77AB !important;
+}
+
+.fearful-color {
+    background-color: #339269 !important;
+}
+
+.disgusted-color {
+    background-color: #FFA500 !important;
+}
+
+/* .fit {
+    object-fit: contain;
+} */
