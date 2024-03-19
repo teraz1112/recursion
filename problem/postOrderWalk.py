@@ -9,7 +9,13 @@ class BinaryTree:
     def printPostOrder(self):
         self.postOrderWalk(self)
         print("")
-
+        
+    # 前順（pre-order）（NLR）
+    def preOrderwalk(self, tRoot):
+        if tRoot is not None:
+            print(str(tRoot.data), end = ' ')
+            self.preOrderwalk(tRoot.left)
+            self.preOrderwalk(tRoot.right)
     # 後順（post-order）（LRN）
     def postOrderWalk(self, tRoot):
         if tRoot is not None:
