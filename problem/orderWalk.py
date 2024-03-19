@@ -23,6 +23,18 @@ class BinaryTree:
             print(str(tRoot.data), end=' ')
             # 最後に、右部分木を間順走査します。これも再帰的にこの関数を呼び出すことで、巡回を行います。
             self.inOrderWalk(tRoot.right)
+    # 前順（pre-order）（NLR）
+    def preOrderwalk(self, tRoot):
+        if tRoot is not None:
+            print(str(tRoot.data), end = ' ')
+            self.preOrderwalk(tRoot.left)
+            self.preOrderwalk(tRoot.right)
+    # 後順（post-order）（LRN）
+    def postOrderWalk(self, tRoot):
+        if tRoot is not None:
+            self.postOrderWalk(tRoot.left)
+            self.postOrderWalk(tRoot.right)
+            print(str(tRoot.data), end=' ')
 
 class BinarySearchTree:
     def __init__(self, arrList):
